@@ -39,7 +39,7 @@
 #define SOCKET int
 #endif
 
-#include <sys/socket.h>
+#include <sys/select.h>
 #include <curl/curl.h>
 #include "ui/win_types.h"
 
